@@ -3,6 +3,11 @@ main > .container {
   margin-bottom: 5rem;
 }
 
+body > main {
+  margin-top: 15px;
+  margin-bottom: 60px;
+}
+
 .sticky-nav {
   position: fixed;
   left: 0;
@@ -24,4 +29,8 @@ main > .container {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.minHeight {
+  min-height: 80vh;
 }
